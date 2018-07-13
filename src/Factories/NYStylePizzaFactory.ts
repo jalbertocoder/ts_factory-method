@@ -1,9 +1,9 @@
 import { PizzaFactory } from './PizzaFactory';
-import { Pizza } from '../Models/Pizza';
-import { NYStyleCheesePizza } from '../Models/NYStyle/NYStyleCheesePizza';
-import { NYStyleClamPizza } from '../Models/NYStyle/NYStyleClamPizza';
-import { NYStylePepperoniPizza } from '../Models/NYStyle/NYStylePepperoniPizza';
-import { NYStyleVeggiePizza } from '../Models/NYStyle/NYStyleVeggiePizza';
+import { Pizza } from '../Pizzas/Pizza';
+import { NYStyleCheesePizza } from '../Pizzas/NYStyle/NYStyleCheesePizza';
+import { NYStyleClamPizza } from '../Pizzas/NYStyle/NYStyleClamPizza';
+import { NYStylePepperoniPizza } from '../Pizzas/NYStyle/NYStylePepperoniPizza';
+import { NYStyleVeggiePizza } from '../Pizzas/NYStyle/NYStyleVeggiePizza';
 
 class NYStylePizzaFactory extends PizzaFactory {
 

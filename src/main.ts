@@ -2,7 +2,7 @@ import { PizzaFactory } from './Factories/PizzaFactory';
 import { ChicagoStylePizzaFactory } from './Factories/ChicagoStylePizzaFactory';
 import { NYStylePizzaFactory } from './Factories/NYStylePizzaFactory';
 
-import { Pizza } from './Models/Pizza';
+import { Pizza } from './Pizzas/Pizza';
 
 function main() {
     let pizzaFactory: PizzaFactory;

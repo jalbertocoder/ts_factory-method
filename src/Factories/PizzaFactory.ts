@@ -1,4 +1,4 @@
-import { Pizza } from '../Models/Pizza';
+import { Pizza } from '../Pizzas/Pizza';
 
 abstract class PizzaFactory {
 
